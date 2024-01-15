@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+/* Desktop nav */
+
+nav, .links {
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;  /* Заема 17% от страницата. */
+}
+
+.links {
+    gap: 2rem; 
+    list-style: none;
+    font-size: 1.5 rem;
+}
+
+a {
+    color: rgb(40, 39, 39);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(196, 164, 164);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem; /* Разстоянието м/у текста и подчертаването */
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.logo:hover{
+    cursor: default;
+}
